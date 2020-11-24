@@ -13,18 +13,12 @@ async function main() {
   // manually to make sure everything is compiled
   // await hre.run('compile');
 
-  // We get the contract to deploy
-  // const Greeter = await hre.ethers.getContractFactory("Greeter");
-  // const greeter = await Greeter.deploy("Hello, Hardhat!");
-
-  const PriceFeed = await hre.ethers.getContractFactory();
-  const pf = await PriceFeed.deploy("Hello, Deploy Chainlink price feed with Hardhat!");
-
-
+  const PriceFeed = await hre.ethers.getContractFactory("PriceConsumerV3");
+  const pf = await PriceFeed.deploy();
 
   await pf.deployed();
 
-  console.log("Chainlink Price Feed deployed to:", greeter.address);
+  console.log("Chainlink Price Feed deployed to:", pf.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
