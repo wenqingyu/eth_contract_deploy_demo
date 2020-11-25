@@ -1,7 +1,6 @@
 # ETH Contract Deploy Tutorial
 ## How to deploy a smart contract that uses Chainlink using Hardhat?
 
-
 ## Purpose
 This is a quick tutorial to demostate how easily to deploy a Chainlink interative smart contract onto Ethereum by using Hardhat.
 
@@ -13,6 +12,16 @@ In this tutorial, we assume you have the basic knowledge of:
 - How to build a Ethereum smart contract (https://docs.chain.link/docs/example-walkthrough)
 - How to integrate Chainlink into smart contract (https://docs.chain.link/docs/getting-started)
 
+
+You can use current sample code for a trail:
+
+```
+git clone https://github.com/wenqingyu/eth_contract_deploy_demo.git
+
+cd eth_contract_deploy_demo
+```
+
+Now you are ready to start!
 
 ## Steps to deploy smart contract with Hardhat
 
