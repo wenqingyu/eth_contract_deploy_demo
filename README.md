@@ -192,4 +192,13 @@ npx hardhat run --network testnet scripts/pf-deploy-script.js
 Chainlink Price Feed deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 ```
 
-Then 
+
+### # Conclusion
+Congratulation! You just successfully deployed a Chainlink Price Feed (ETH/USDC) smart contract into Ethereum (testnet). Hope this simple walkthrough help you get familiar with:
+
+* Basic understganding of Hardhat 
+* Conceptually familiar with testing, compiling and deploying a smart contract)
+* More important, how smooth to create a  cool DAPP with Chainlink, and make it up and running.
+
+
+Any suggestion / recommendation / further contribution feel free to contact yuwenqingisu@gmail.com.
